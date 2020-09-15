@@ -1,0 +1,17 @@
+#l1 {
+    padding: 10px;
+}
+#l2 {
+    padding: 10px;
+}
+#l3 {
+    padding: 10px;
+}
+.contents {
+    display: none;
+}
+#displayframe {
+    width: auto;
+    display: block;
+    height: 300px;
+}

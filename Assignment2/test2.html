@@ -1,0 +1,27 @@
+<html>
+<head>
+  <script type="text/javascript">
+    var clicks1 = 0;
+    function imgclick1(){
+    var span1=document.getElementById('span1');
+    span1.innerHTML=++clicks1;
+    }
+    var clicks2 = 0;
+    function imgclick2(){
+    var span2=document.getElementById('span2');
+    span2.innerHTML=++clicks2;
+    }
+  </script>
+</head>
+<body>
+  <div>
+      <img src="C:\Users\singsaum\Desktop\Assignment2\carpic.jpg" id="img1" onclick="imgclick1();">
+      <h2>Cars First</h2>
+      Count <span id="span1">0</span>
+      <br>
+      <img src="C:\Users\singsaum\Desktop\Assignment2\carpic2.jpg" id="img2" onclick="imgclick2();">
+      <h2>Cars Second</h2>
+      Count <span id="span2">0</span>
+      </div>
+</body>
+</html>
